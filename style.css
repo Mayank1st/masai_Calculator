@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container>h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    padding-bottom: 50px;
+}
+.container>.Calculator-box{
+    width: 20%;
+    /* border: solid red; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    grid-template-areas:"a a a a"
+              "b c d e"
+              "f g h i"
+              "j k l m"
+              "n o p q" ;
+    /* border: solid black 1px; */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.Calculator-box>div{
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Calculator-box>div:nth-of-type(1){
+    grid-area: a;
+}
+.Calculator-box>div:nth-of-type(2){
+    grid-area: b;
+}
+.Calculator-box>div:nth-of-type(3){
+    grid-area: c;
+}
+.Calculator-box>div:nth-of-type(4){
+    grid-area: d;
+}
+.Calculator-box>div:nth-of-type(5){
+    grid-area: e;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.Calculator-box>div:nth-of-type(6){
+    grid-area: f;
+}
+.Calculator-box>div:nth-of-type(7){
+    grid-area: g;
+}
+.Calculator-box>div:nth-of-type(8){
+    grid-area: h;
+}
+.Calculator-box>div:nth-of-type(9){
+    grid-area: i;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    
+}
+.Calculator-box>div:nth-of-type(10){
+    grid-area: j;
+}
+.Calculator-box>div:nth-of-type(11){
+    grid-area: k;
+}
+.Calculator-box>div:nth-of-type(12){
+    grid-area: l;
+}
+.Calculator-box>div:nth-of-type(13){
+    grid-area: m;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.Calculator-box>div:nth-of-type(14){
+    grid-area: n;
+    background-color: #fe0100;
+    color: white;
+}
+.Calculator-box>div:nth-of-type(15){
+    grid-area: o;
+}
+.Calculator-box>div:nth-of-type(16){
+    grid-area: p;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.Calculator-box>div:nth-of-type(17){
+    grid-area: q;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
